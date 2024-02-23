@@ -1,0 +1,23 @@
+{
+  "name": "BTC-price",
+  "version": "1.0.0",
+  "description": "A simple express application to fetch the current price of Bitcoin in USD.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "BTC",
+    "Bitcoin",
+    "price",
+    "express",
+    "node.js"
+  ],
+  "author": "@0xallen",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  }
+}
