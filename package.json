@@ -1,5 +1,5 @@
 {
-  "name": "BTC-price",
+  "name": "FOUNCTION-BTC-price",
   "version": "1.0.0",
   "description": "A simple express application to fetch the current price of Bitcoin in USD.",
   "main": "index.js",
