@@ -15,6 +15,8 @@ async function getBTCPrice() {
   }
 }
 
+
+//定义获取ETH的价格
 app.get('/btc', async (req, res) => {
   try {
     // 调用getBTCPrice函数并发送结果
@@ -30,3 +32,4 @@ app.get('/btc', async (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
+
