@@ -14,7 +14,11 @@
     "express",
     "node.js"
   ],
-  "author": "@0xallen",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/sanhuo2014/coinPrice"
+},
+  "author": "@sanhuo2014",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
