@@ -1,6 +1,6 @@
 {
   "name": "founction-btc-today",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple express application to fetch the current price of Bitcoin in USD.",
   "main": "index.js",
   "scripts": {
