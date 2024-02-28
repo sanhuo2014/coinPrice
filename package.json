@@ -1,26 +1,27 @@
 {
-  "name": "account-login-local",
-  "version": "1.0.0",
-  "description": "一个基于 Node.js 的 web 应用程序，实现了用户登录的基本功能",
+  "name": "founction-btc-today",
+  "version": "1.0.1",
+  "description": "A simple express application to fetch the current price of Bitcoin in USD.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sanhuo2014/loginT"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "Node.js",
-    "登录",
-    "web应用"
+    "BTC",
+    "Bitcoin",
+    "price",
+    "express",
+    "node.js"
   ],
-  "author": "sanhuo2014",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sanhuo2014/loginT/issues"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanhuo2014/coinPrice"
   },
-  "homepage": "https://github.com/sanhuo2014/loginT",
-  "dependencies": {}
+  "author": "@sanhuo2014",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  }
 }
